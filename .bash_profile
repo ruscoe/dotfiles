@@ -9,6 +9,10 @@ export PATH="$HOME/.composer/vendor/bin:$PATH"
 alias ut="date +%s"
 # Always list files in long format.
 alias ls="ls -l"
+# Find files.
+alias ff="find . -type f -name"
+# Find directories.
+alias fd="find . -type d -name"
 
 # Set nano as default editor.
 export EDITOR=/usr/bin/nano
