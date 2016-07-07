@@ -1,0 +1,8 @@
+# Create three workspaces.
+exec /usr/bin/rpws init 3 -k
+
+# Set window borders.
+set border 2
+set gap 10
+set fwcolor #FFFFFF
+set bwcolor #7D7D7D
