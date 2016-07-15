@@ -14,8 +14,8 @@ alias ff="find . -type f -name"
 # Find directories.
 alias fd="find . -type d -name"
 
-# Set nano as default editor.
-export EDITOR=/usr/bin/nano
+# Set Vim as default editor.
+export EDITOR=/usr/bin/vim
 
 # Set prompt to 'user@host [hh:mm:ss]'
 PS1="\u@\h [\t] "
