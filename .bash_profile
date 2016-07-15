@@ -13,6 +13,8 @@ alias ls="ls -l"
 alias ff="find . -type f -name"
 # Find directories.
 alias fd="find . -type d -name"
+# Start Vim with Drupal configuration.
+alias vid="vim -u ~/.vimrc-drupal"
 
 # Set Vim as default editor.
 export EDITOR=/usr/bin/vim
