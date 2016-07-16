@@ -13,6 +13,9 @@ set autoindent
 set smartindent
 set number
 
+" Key mappings.
+map <C-n> :NERDTreeToggle<CR>
+
 if has("autocmd")
   augroup module
   autocmd BufRead,BufNewFile *.module set filetype=php
