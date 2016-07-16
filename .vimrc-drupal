@@ -1,10 +1,17 @@
 " Vim configuration for Drupal development.
 
+" Set nocompatible mode so pathogen works with custom config file.
+set nocompatible
+
+" Use pathogen to load plugins.
+execute pathogen#infect()
+
 set expandtab
 set tabstop=2
 set shiftwidth=2
 set autoindent
 set smartindent
+set number
 
 if has("autocmd")
   augroup module
