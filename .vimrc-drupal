@@ -3,6 +3,7 @@
 " Requires:
 " pathogen.vim - https://github.com/tpope/vim-pathogen
 " NERD Tree - https://github.com/scrooloose/nerdtree
+" Tagbar - https://github.com/majutsushi/tagbar
 
 " Set nocompatible mode so pathogen works with custom config file.
 set nocompatible
@@ -19,6 +20,7 @@ set number
 
 " Key mappings.
 map <C-n> :NERDTreeToggle<CR>
+map <C-o> :TagbarToggle<CR>
 
 if has("autocmd")
   augroup module
