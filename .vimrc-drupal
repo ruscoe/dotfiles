@@ -1,5 +1,9 @@
 " Vim configuration for Drupal development.
 
+" Requires:
+" pathogen.vim - https://github.com/tpope/vim-pathogen
+" NERD Tree - https://github.com/scrooloose/nerdtree
+
 " Set nocompatible mode so pathogen works with custom config file.
 set nocompatible
 
