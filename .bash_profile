@@ -16,6 +16,15 @@ alias fd="find . -type d -name"
 # Start Vim with Drupal configuration.
 alias vid="vim -u ~/.vimrc-drupal"
 
+# Django aliases
+
+# Run server.
+alias drs="python ./manage.py runserver"
+# Make migrations.
+alias dmm="python ./manage.py makemigrations"
+# Run migration.
+alias dsqlm="python ./manage.py sqlmigrate"
+
 # Set Vim as default editor.
 export EDITOR=/usr/bin/vim
 
