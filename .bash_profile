@@ -13,6 +13,11 @@ alias ls="ls -l"
 alias ff="find . -type f -name"
 # Find directories.
 alias fd="find . -type d -name"
+
+# Drupal / Drush aliases
+
+# Run Drush.
+alias dr="drush"
 # Start Vim with Drupal configuration.
 alias vid="vim -u ~/.vimrc-drupal"
 
