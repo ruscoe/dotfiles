@@ -30,6 +30,13 @@ alias dmm="python ./manage.py makemigrations"
 # Run migration.
 alias dsqlm="python ./manage.py sqlmigrate"
 
+# Rails aliases
+
+# Run server.
+alias rserv="bin/rails server"
+# Run database migrations.
+alias rmigrate="bin/rails db:migrate"
+
 # Set Vim as default editor.
 export EDITOR=/usr/bin/vim
 
