@@ -21,6 +21,11 @@ alias dr="drush"
 # Start Vim with Drupal configuration.
 alias vid="vim -u ~/.vimrc-drupal"
 
+# Homebrew aliases
+
+# Restart a service.
+alias brestart="brew services restart"
+
 # Django aliases
 
 # Run server.
