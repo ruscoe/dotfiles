@@ -11,3 +11,11 @@ alias ff="find . -type f -name"
 
 # Find directories.
 alias fd="find . -type d -name"
+
+# Jekyll aliases
+
+# Serve
+alias jks="jekyll serve"
+
+# Build
+alias jkb="jekyll build"
