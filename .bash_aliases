@@ -12,6 +12,9 @@ alias ff="find . -type f -name"
 # Find directories.
 alias fd="find . -type d -name"
 
+# Fix my common mistakes.
+alias claer="clear"
+
 # Jekyll aliases
 
 # Serve
