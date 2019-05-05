@@ -22,3 +22,22 @@ alias jks="jekyll serve"
 
 # Build
 alias jkb="jekyll build"
+
+# PHP CodeSniffer aliases
+
+# Check Drupal coding standards.
+alias drupalcs="phpcs --standard=Drupal --extensions='php,module,inc,install,test,profile,theme,css,info,txt,md'"
+
+# Check Drupal best practices.
+alias drupalcsp="phpcs --standard=DrupalPractice --extensions='php,module,inc,install,test,profile,theme,css,info,txt,md'"
+
+# Automatically fix Drupal coding standards.
+alias drupalcbf="phpcbf --standard=Drupal --extensions='php,module,inc,install,test,profile,theme,css,info,txt,md'"
+
+# MySQL
+
+alias my="mysql -h localhost -u root -proot"
+
+# Misc
+alias drush="~/drush/vendor/bin/drush"
+alias composer="~/composer/composer.phar"
