@@ -49,3 +49,4 @@ alias dd-kill="ddev remove --remove-data"
 # Misc
 alias drush="~/drush/vendor/bin/drush"
 alias composer="~/composer/composer.phar"
+alias ngrok="~/ngrok-beta"
