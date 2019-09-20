@@ -38,6 +38,14 @@ alias drupalcbf="phpcbf --standard=Drupal --extensions='php,module,inc,install,t
 
 alias my="mysql -h localhost -u root -proot"
 
+# DDEV aliases
+
+# Export database as SQL
+alias dd-export-sql="ddev export-db --gzip=false"
+
+# Remove entire DDEV instance
+alias dd-kill="ddev remove --remove-data"
+
 # Misc
 alias drush="~/drush/vendor/bin/drush"
 alias composer="~/composer/composer.phar"
