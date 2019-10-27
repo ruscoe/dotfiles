@@ -23,6 +23,29 @@ alias jks="jekyll serve"
 # Build
 alias jkb="jekyll build"
 
+# Drupal / Drush aliases
+
+# Run Drush.
+alias drush="~/drush/vendor/bin/drush"
+# Start Vim with Drupal configuration.
+alias vid="vim -u ~/.vimrc-drupal"
+
+# Django aliases
+
+# Run server.
+alias drs="python ./manage.py runserver"
+# Make migrations.
+alias dmm="python ./manage.py makemigrations"
+# Run migration.
+alias dsqlm="python ./manage.py sqlmigrate"
+
+# Rails aliases
+
+# Run server.
+alias rserv="bin/rails server"
+# Run database migrations.
+alias rmigrate="bin/rails db:migrate"
+
 # PHP CodeSniffer aliases
 
 # Check Drupal coding standards.
@@ -40,13 +63,12 @@ alias my="mysql -h localhost -u root -proot"
 
 # DDEV aliases
 
-# Export database as SQL
+# Export database as SQL.
 alias dd-export-sql="ddev export-db --gzip=false"
 
-# Remove entire DDEV instance
+# Remove entire DDEV instance.
 alias dd-kill="ddev remove --remove-data"
 
 # Misc
-alias drush="~/drush/vendor/bin/drush"
 alias composer="~/composer/composer.phar"
 alias ngrok="~/ngrok-beta"
