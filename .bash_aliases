@@ -66,8 +66,11 @@ alias my="mysql -h localhost -u root -proot"
 
 # DDEV aliases
 
+# Import database.
+alias ddimport="ddev import-db --src"
+
 # Export database as SQL.
-alias dd-export-sql="ddev export-db --gzip=false"
+alias ddexport="ddev export-db --gzip=false"
 
 # Remove entire DDEV instance.
 alias dd-kill="ddev remove --remove-data"
