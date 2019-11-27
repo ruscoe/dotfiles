@@ -73,7 +73,7 @@ alias ddimport="ddev import-db --src"
 alias ddexport="ddev export-db --gzip=false"
 
 # Remove entire DDEV instance.
-alias dd-kill="ddev remove --remove-data"
+alias ddkill="ddev remove --remove-data"
 
 # Misc
 alias composer="~/composer/composer.phar"
