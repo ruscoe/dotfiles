@@ -66,6 +66,12 @@ alias my="mysql -h localhost -u root -proot"
 
 # DDEV aliases
 
+# Run a drush command.
+alias ddd="ddev exec drush"
+
+# Get an admin login URL for a Drupal site via drush.
+alias ddurl="ddev exec drush uli"
+
 # Import database.
 alias ddimport="ddev import-db --src"
 
