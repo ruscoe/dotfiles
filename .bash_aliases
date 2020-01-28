@@ -69,6 +69,9 @@ alias my="mysql -h localhost -u root -proot"
 # Run a drush command.
 alias ddd="ddev exec drush"
 
+# Clear all cache.
+alias ddcc="ddev exec drush cc all"
+
 # Get an admin login URL for a Drupal site via drush.
 alias ddurl="ddev exec drush uli"
 
