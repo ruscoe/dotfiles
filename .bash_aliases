@@ -87,3 +87,6 @@ alias ddkill="ddev remove --remove-data"
 # Misc
 alias composer="~/composer/composer.phar"
 alias ngrok="~/ngrok-beta"
+
+# Reload audio because speakers don't work since Pop!_OS 20.04 LTS.
+alias fixaudio="pulseaudio -k && sudo alsa force-reload"
