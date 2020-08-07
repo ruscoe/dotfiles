@@ -18,6 +18,9 @@ alias fd="find . -type d -name"
 # Fix my common mistakes.
 alias claer="clear"
 
+# Clear screen and show git status. Very handy.
+alias cgs="clear; git status"
+
 # Jekyll aliases
 
 # Serve
