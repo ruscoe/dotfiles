@@ -21,6 +21,10 @@ alias claer="clear"
 # Clear screen and show git status. Very handy.
 alias cgs="clear; git status"
 
+# Show changed files in a git commit.
+
+alias gitfiles="git diff-tree --no-commit-id --name-only -r"
+
 # Jekyll aliases
 
 # Serve
