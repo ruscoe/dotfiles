@@ -3,3 +3,4 @@
 composer.lock
 .ddev
 .sass-cache
+__pycache__
