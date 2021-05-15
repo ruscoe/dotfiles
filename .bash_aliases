@@ -25,6 +25,17 @@ alias cgs="clear; git status"
 
 alias gitfiles="git diff-tree --no-commit-id --name-only -r"
 
+# Nginx aliases
+
+# Start nginx
+alias ngstart="sudo service nginx start"
+
+# Stop nginx
+alias ngstop="sudo service nginx stop"
+
+# Restart nginx
+alias ngre="sudo service nginx restart"
+
 # Jekyll aliases
 
 # Serve
