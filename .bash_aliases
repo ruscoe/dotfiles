@@ -107,5 +107,8 @@ alias composer="~/composer/composer.phar"
 alias ngrok="~/ngrok-beta"
 alias p3="python3"
 
+# This is here because I can't get 'compass watch' to work.
+alias compassw="watch -n 1 compass compile"
+
 # Reload audio because speakers don't work since Pop!_OS 20.04 LTS.
 alias fixaudio="pulseaudio -k && sudo alsa force-reload"
