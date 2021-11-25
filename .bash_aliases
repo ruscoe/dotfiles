@@ -22,8 +22,10 @@ alias claer="clear"
 alias cgs="clear; git status"
 
 # Show changed files in a git commit.
-
 alias gitfiles="git diff-tree --no-commit-id --name-only -r"
+
+# Show git remotes.
+alias gitr="git remote -v"
 
 # Nginx aliases
 
