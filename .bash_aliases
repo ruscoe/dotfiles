@@ -109,5 +109,8 @@ alias composer="~/composer/composer.phar"
 alias ngrok="~/ngrok-beta"
 alias p3="python3"
 
+# Restart PHP.
+alias php72re="sudo service php7.2-fpm restart"
+
 # This is here because I can't get 'compass watch' to work.
 alias compassw="watch -n 1 compass compile"
