@@ -105,7 +105,6 @@ alias ddexport="ddev export-db --gzip=false"
 alias ddkill="ddev remove --remove-data"
 
 # Misc
-alias composer="~/composer/composer.phar"
 alias ngrok="~/ngrok-beta"
 alias p3="python3"
 
