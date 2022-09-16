@@ -1,11 +1,13 @@
-# dotfiles
+# Linux desktop config files
 
-Configuration files for my Linux environment.
+Configuration files from my Linux desktop. Mostly here as a backup, but perhaps you'll find them useful in some way.
 
-# General Gnome configuration
+## General Gnome configuration
 
-### Show path instead of breadcrumbs in Nautilus
-`dconf write /org/gnome/nautilus/preferences/always-use-location-entry true`
+* Always show path in Nautilus address bar
+* Disable desktop animations
 
-### Turn off animations and never turn them on again
-`dconf write /org/gnome/desktop/interface/enable-animations false`
+```
+dconf write /org/gnome/nautilus/preferences/always-use-location-entry true
+dconf write /org/gnome/desktop/interface/enable-animations false
+```
