@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Litecoin
+Exec=sh -c "~/crypto/litecoin-0.21.2.1/bin/litecoin-qt"
+Icon=litecoin

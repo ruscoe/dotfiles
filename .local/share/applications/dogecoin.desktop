@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Dogecoin
+Exec=sh -c "~/crypto/dogecoin-1.14.6/bin/dogecoin-qt"
+Icon=dogecoin
