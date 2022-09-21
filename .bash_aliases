@@ -6,9 +6,6 @@ alias ut="date +%s"
 # Convert UNIX timestamp to date.
 alias utd='function _ts_to_date(){ date -d @$1; };_ts_to_date'
 
-# Always list files in long format.
-alias ls="ls -l"
-
 # Find files.
 alias ff="find . -type f -name"
 
