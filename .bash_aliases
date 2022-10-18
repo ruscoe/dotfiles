@@ -43,13 +43,6 @@ alias jks="jekyll serve"
 # Build
 alias jkb="jekyll build"
 
-# Drupal / Drush aliases
-
-# Run Drush.
-alias drush="~/drush/vendor/bin/drush"
-# Start Vim with Drupal configuration.
-alias vid="vim -u ~/.vimrc-drupal"
-
 # Django aliases
 
 # Run server.
