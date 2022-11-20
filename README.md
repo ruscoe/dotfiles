@@ -14,5 +14,6 @@ dconf write /org/gnome/desktop/interface/enable-animations false
 
 ## Visual Studio configuration
 
-Exclude file pattern:
+Exclude file pattern for Unity projects:
+
 `**/*.meta`
