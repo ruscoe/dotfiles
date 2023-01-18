@@ -24,6 +24,9 @@ alias gitfiles="git diff-tree --no-commit-id --name-only -r"
 # Show git remotes.
 alias gitr="git remote -v"
 
+# Get headers via cURL.
+alias ch="curl -I"
+
 # Nginx aliases
 
 # Start nginx
