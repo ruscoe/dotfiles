@@ -49,59 +49,11 @@ alias jks="jekyll serve"
 # Build
 alias jkb="jekyll build"
 
-# Django aliases
-
-# Run server.
-alias drs="python ./manage.py runserver"
-# Make migrations.
-alias dmm="python ./manage.py makemigrations"
-# Run migration.
-alias dsqlm="python ./manage.py sqlmigrate"
-
-# Rails aliases
-
-# Run server.
-alias rserv="bin/rails server"
-# Run database migrations.
-alias rmigrate="bin/rails db:migrate"
-
-# PHP CodeSniffer aliases
-
-# Check Drupal coding standards.
-alias drupalcs="phpcs --standard=Drupal --extensions='php,module,inc,install,test,profile,theme,css,info,txt,md'"
-
-# Check Drupal best practices.
-alias drupalcsp="phpcs --standard=DrupalPractice --extensions='php,module,inc,install,test,profile,theme,css,info,txt,md'"
-
-# Automatically fix Drupal coding standards.
-alias drupalcbf="phpcbf --standard=Drupal --extensions='php,module,inc,install,test,profile,theme,css,info,txt,md'"
-
 # MySQL
 
 alias my="mysql -h localhost -u root -proot"
 
-# DDEV aliases
-
-# Run a drush command.
-alias ddd="ddev exec drush"
-
-# Clear all cache.
-alias ddcc="ddev exec drush cc all"
-
-# Get an admin login URL for a Drupal site via drush.
-alias ddurl="ddev exec drush uli"
-
-# Import database.
-alias ddimport="ddev import-db --src"
-
-# Export database as SQL.
-alias ddexport="ddev export-db --gzip=false"
-
-# Remove entire DDEV instance.
-alias ddkill="ddev remove --remove-data"
-
 # Misc
-alias ngrok="~/ngrok-beta"
 alias p3="python3"
 
 # Restart PHP.
