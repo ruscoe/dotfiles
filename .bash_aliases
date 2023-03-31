@@ -24,6 +24,9 @@ alias gitfiles="git diff-tree --no-commit-id --name-only -r"
 # Show git remotes.
 alias gitr="git remote -v"
 
+# Git log one line.
+alias gitol="git log --oneline"
+
 # Get headers via cURL.
 alias ch="curl -I"
 
