@@ -51,6 +51,20 @@ alias jks="jekyll serve"
 # Build
 alias jkb="jekyll build"
 
+# Docker aliases
+
+# List containers
+alias dcls="docker container ls"
+
+# Start a container
+alias dcstart="docker container start"
+
+# Stop a container
+alias dcstop="docker container stop"
+
+# List images
+alias dils="docker image ls"
+
 # MySQL
 
 alias my="mysql -h localhost -u root -proot"
