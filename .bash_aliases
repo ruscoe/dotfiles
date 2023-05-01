@@ -62,8 +62,14 @@ alias dcstart="docker container start"
 # Stop a container
 alias dcstop="docker container stop"
 
+# Prune containers
+alias dcpr="docker container prune"
+
 # List images
 alias dils="docker image ls"
+
+# List networks
+alias dnls="docker network ls"
 
 # MySQL
 
